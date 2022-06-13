@@ -1,9 +1,24 @@
+//sass class//
+$color-tan:#eab676;
+$text-align:center;
+$backgroundcolor:#abdbe3;
+$margin:0;
+$padding:0;
 
 
+
+
+@mixin mobilenav {
+
+
+
+    
+}
+//css body//
 body{
-    background-color:#082B59;
-    margin:0;
-    padding:0;
+    background-color:$color-tan;
+    margin:$margin;
+    padding:$margin;
     font-family:'Lato', sans-serif;
     line-height: 2;
   }
@@ -29,8 +44,8 @@ body{
   }
   
   nav ul {
-    padding: 0;
-    margin: 0;
+    padding: $padding;
+    margin: $margin;
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
@@ -55,7 +70,7 @@ body{
     display: block;
   }
   nav a:hover {
-    color: #d98555;
+    color:$color-tan;
   }
   
   .main-bkgd {
